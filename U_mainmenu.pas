@@ -20,6 +20,7 @@ type
     LatihanDatabase1: TMenuItem;
     ProfilePembuat1: TMenuItem;
     Close1: TMenuItem;
+    procedure LatihanKalkulator1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,6 +32,13 @@ var
 
 implementation
 
+uses U_latihankalkulator;
+
 {$R *.dfm}
+
+procedure TForm1.LatihanKalkulator1Click(Sender: TObject);
+begin
+Form2.show;
+end;
 
 end.

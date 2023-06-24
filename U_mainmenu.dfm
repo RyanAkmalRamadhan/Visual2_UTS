@@ -21,6 +21,7 @@ object Form1: TForm1
       Caption = 'Latihan'
       object LatihanKalkulator1: TMenuItem
         Caption = 'Latihan Kalkulator'
+        OnClick = LatihanKalkulator1Click
       end
       object PraktekMandiriKalkulator1: TMenuItem
         Caption = 'Praktek Mandiri Kalkulator'
@@ -45,7 +46,7 @@ object Form1: TForm1
       end
     end
     object ProfilePembuat1: TMenuItem
-      Caption = 'Profile Pembuat'
+      Caption = 'Profile'
     end
     object Close1: TMenuItem
       Caption = 'Close'
