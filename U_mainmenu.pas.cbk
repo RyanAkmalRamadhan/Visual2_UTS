@@ -33,7 +33,7 @@ var
 
 implementation
 
-uses U_latihankalkulator;
+uses U_latihankalkulator, U_praktekmandirikalkulator;
 
 {$R *.dfm}
 
