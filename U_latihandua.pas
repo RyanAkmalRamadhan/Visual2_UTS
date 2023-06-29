@@ -1,4 +1,4 @@
-unit U_latihan02;
+unit U_latihandua;
 
 interface
 
@@ -9,8 +9,6 @@ uses
 type
   TForm4 = class(TForm)
     Button1: TButton;
-    Button2: TButton;
-    Button3: TButton;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;

@@ -1,9 +1,9 @@
 object Form3: TForm3
-  Left = 192
-  Top = 125
+  Left = 328
+  Top = 202
   Width = 928
   Height = 480
-  Caption = 'PRAKTEK MANDIRI_1'
+  Caption = 'Form3'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -82,7 +82,7 @@ object Form3: TForm3
       Left = 104
       Top = 64
       Width = 121
-      Height = 25
+      Height = 21
       TabOrder = 0
       Text = 'edt3'
     end
@@ -90,7 +90,7 @@ object Form3: TForm3
       Left = 104
       Top = 104
       Width = 121
-      Height = 25
+      Height = 21
       TabOrder = 1
       Text = 'edt4'
     end
@@ -98,7 +98,7 @@ object Form3: TForm3
       Left = 104
       Top = 144
       Width = 121
-      Height = 25
+      Height = 21
       TabOrder = 2
       Text = 'edt5'
     end
@@ -106,7 +106,7 @@ object Form3: TForm3
       Left = 104
       Top = 184
       Width = 121
-      Height = 25
+      Height = 21
       TabOrder = 3
       Text = 'edt6'
     end

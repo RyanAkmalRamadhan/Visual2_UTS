@@ -1,6 +1,6 @@
 object Form4: TForm4
-  Left = 292
-  Top = 161
+  Left = 351
+  Top = 189
   Width = 928
   Height = 480
   Caption = 'Form4'
@@ -77,92 +77,85 @@ object Form4: TForm4
     Caption = 'CEK NILAI BOBOT SISWA'
     TabOrder = 0
   end
-  object Button2: TButton
-    Left = 248
-    Top = 112
-    Width = 73
-    Height = 25
-    Caption = 'Bobot'
-    TabOrder = 1
-  end
-  object Button3: TButton
-    Left = 160
-    Top = 112
-    Width = 81
-    Height = 25
-    Caption = 'Nilai'
-    TabOrder = 2
-  end
   object edit1: TEdit
     Left = 160
     Top = 152
     Width = 81
     Height = 21
-    TabOrder = 3
-    Text = '0'
+    TabOrder = 1
+    Text = 'edit1'
   end
   object edit2: TEdit
     Left = 160
     Top = 184
     Width = 81
     Height = 21
-    TabOrder = 4
+    TabOrder = 2
+    Text = 'edit2'
   end
   object edit3: TEdit
     Left = 160
     Top = 216
     Width = 81
     Height = 21
-    TabOrder = 5
+    TabOrder = 3
+    Text = 'edit3'
   end
   object edt1: TEdit
     Left = 160
     Top = 248
     Width = 81
     Height = 21
-    TabOrder = 6
+    TabOrder = 4
+    Text = 'edt1'
   end
   object edt3: TEdit
     Left = 160
     Top = 280
     Width = 81
     Height = 21
-    TabOrder = 7
+    TabOrder = 5
+    Text = 'edt3'
   end
   object edit4: TEdit
     Left = 248
     Top = 152
     Width = 73
     Height = 21
-    TabOrder = 8
+    TabOrder = 6
+    Text = 'edit4'
   end
   object edit5: TEdit
     Left = 248
     Top = 184
     Width = 73
     Height = 21
-    TabOrder = 9
+    TabOrder = 7
+    Text = 'edit5'
   end
   object edit6: TEdit
     Left = 248
     Top = 216
     Width = 73
     Height = 21
-    TabOrder = 10
+    TabOrder = 8
+    Text = 'edit6'
   end
   object edt2: TEdit
     Left = 248
     Top = 248
     Width = 73
     Height = 21
-    TabOrder = 11
+    TabOrder = 9
+    Text = 'edt2'
   end
   object edt4: TEdit
     Left = 248
     Top = 280
     Width = 73
     Height = 21
-    TabOrder = 12
+    TabOrder = 10
+    Text = 'edt4'
   end
   object Button4: TButton
     Left = 160
@@ -170,7 +163,7 @@ object Form4: TForm4
     Width = 81
     Height = 25
     Caption = 'Hitung'
-    TabOrder = 13
+    TabOrder = 11
     OnClick = Button4Click
   end
   object Button5: TButton
@@ -179,7 +172,7 @@ object Form4: TForm4
     Width = 73
     Height = 25
     Caption = 'Hapus'
-    TabOrder = 14
+    TabOrder = 12
     OnClick = Button5Click
   end
   object edit7: TEdit
@@ -187,21 +180,24 @@ object Form4: TForm4
     Top = 168
     Width = 81
     Height = 21
-    TabOrder = 15
+    TabOrder = 13
+    Text = 'edit7'
   end
   object edit8: TEdit
     Left = 400
     Top = 200
     Width = 81
     Height = 21
-    TabOrder = 16
+    TabOrder = 14
+    Text = 'edit8'
   end
   object edt5: TEdit
     Left = 400
     Top = 232
     Width = 145
     Height = 21
-    TabOrder = 17
+    TabOrder = 15
+    Text = 'edt5'
   end
   object Button6: TButton
     Left = 416
@@ -209,7 +205,7 @@ object Form4: TForm4
     Width = 73
     Height = 25
     Caption = 'Keluar'
-    TabOrder = 18
+    TabOrder = 16
     OnClick = Button6Click
   end
 end

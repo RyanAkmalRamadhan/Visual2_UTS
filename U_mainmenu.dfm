@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 287
-  Top = 193
+  Left = 331
+  Top = 208
   Width = 928
   Height = 480
   Caption = 'Form1'
@@ -36,6 +36,7 @@ object Form1: TForm1
       end
       object LatihanGrafikdanStringGrid1: TMenuItem
         Caption = 'Latihan Grafik dan StringGrid'
+        OnClick = LatihanGrafikdanStringGrid1Click
       end
       object PraktekMandiriGrafikdanStringGrid1: TMenuItem
         Caption = 'Praktek Mandiri Grafik dan StringGrid'

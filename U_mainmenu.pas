@@ -23,6 +23,7 @@ type
     procedure LatihanKalkulator1Click(Sender: TObject);
     procedure PraktekMandiriKalkulator1Click(Sender: TObject);
     procedure LatihanKondisional1Click(Sender: TObject);
+    procedure LatihanGrafikdanStringGrid1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -34,7 +35,8 @@ var
 
 implementation
 
-uses U_latihankalkulator, U_praktekmandirikalkulator, U_latihan02;
+uses U_latihankalkulator, U_praktekmandirikalkulator, U_latihandua
+, U_latihangrafikdanstringgrid;
 
 {$R *.dfm}
 
@@ -51,6 +53,11 @@ end;
 procedure TForm1.LatihanKondisional1Click(Sender: TObject);
 begin
 Form4.show
+end;
+
+procedure TForm1.LatihanGrafikdanStringGrid1Click(Sender: TObject);
+begin
+Form5.show
 end;
 
 end.

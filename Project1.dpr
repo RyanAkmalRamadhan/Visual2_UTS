@@ -5,7 +5,8 @@ uses
   U_mainmenu in 'U_mainmenu.pas' {Form1},
   U_latihankalkulator in 'U_latihankalkulator.pas' {Form2},
   U_praktekmandirikalkulator in 'U_praktekmandirikalkulator.pas' {Form3},
-  U_latihan02 in 'U_latihan02.pas' {Form4};
+  U_latihandua in 'U_latihandua.pas' {Form4},
+  U_latihangrafikdanstringgrid in 'U_latihangrafikdanstringgrid.pas' {Form5};
 
 {$R *.res}
 
@@ -15,5 +16,6 @@ begin
   Application.CreateForm(TForm2, Form2);
   Application.CreateForm(TForm3, Form3);
   Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm5, Form5);
   Application.Run;
 end.
