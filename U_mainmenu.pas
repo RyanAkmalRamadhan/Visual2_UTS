@@ -22,7 +22,6 @@ type
     Close1: TMenuItem;
     procedure LatihanKalkulator1Click(Sender: TObject);
     procedure PraktekMandiriKalkulator1Click(Sender: TObject);
-    procedure LatihanKondisional1Click(Sender: TObject);
     procedure LatihanGrafikdanStringGrid1Click(Sender: TObject);
   private
     { Private declarations }
@@ -48,11 +47,6 @@ end;
 procedure TForm1.PraktekMandiriKalkulator1Click(Sender: TObject);
 begin
 Form3.show
-end;
-
-procedure TForm1.LatihanKondisional1Click(Sender: TObject);
-begin
-Form4.show
 end;
 
 procedure TForm1.LatihanGrafikdanStringGrid1Click(Sender: TObject);

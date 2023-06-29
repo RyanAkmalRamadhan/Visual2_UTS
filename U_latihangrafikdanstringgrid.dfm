@@ -1,6 +1,6 @@
 object Form5: TForm5
-  Left = 426
-  Top = 160
+  Left = 280
+  Top = 146
   Width = 928
   Height = 553
   Caption = 'Form5'
@@ -12,6 +12,7 @@ object Form5: TForm5
   Font.Style = []
   OldCreateOrder = False
   OnCreate = FormCreate
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -42,7 +43,6 @@ object Form5: TForm5
     Height = 21
     ItemHeight = 13
     TabOrder = 0
-    Text = 'CBB1'
   end
   object EDT1: TEdit
     Left = 248
@@ -50,7 +50,6 @@ object Form5: TForm5
     Width = 137
     Height = 21
     TabOrder = 1
-    Text = 'EDT1'
   end
   object cbb2: TComboBox
     Left = 248
@@ -59,10 +58,9 @@ object Form5: TForm5
     Height = 21
     ItemHeight = 13
     TabOrder = 2
-    Text = 'cbb2'
   end
   object Button1: TButton
-    Left = 232
+    Left = 144
     Top = 112
     Width = 75
     Height = 25
@@ -71,7 +69,7 @@ object Form5: TForm5
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 320
+    Left = 232
     Top = 112
     Width = 75
     Height = 25
@@ -117,5 +115,14 @@ object Form5: TForm5
       PieValues.Multiplier = 1.000000000000000000
       PieValues.Order = loNone
     end
+  end
+  object Button3: TButton
+    Left = 344
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = 'CLEAR ALL'
+    TabOrder = 7
+    OnClick = Button3Click
   end
 end
